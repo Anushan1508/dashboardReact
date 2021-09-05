@@ -1,0 +1,78 @@
+.App {
+    background: #F1F2FB;
+
+}
+.sight-bar-container{
+    background: #5300B4;
+    /*width: 25%;*/
+    /*height: 80%;*/
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    text-align: center;
+}
+.sight-name{
+    margin-left: 20px;
+    display: inline-block;
+}
+.portfolio-container{
+    background: linear-gradient(90deg, #8924FF 0%, #5300B4 100%, #5F08C4 100%);
+}
+.sales-card{
+    background: #2F2EE1;
+    color: white;
+    width: 500px;
+    padding: 50px 20px;
+    border-radius: 20px;
+}
+.sales-card-container{
+    display: flex;
+    gap: 50px;
+    flex-flow: wrap;
+    justify-content: center;
+}
+.graph-container{
+    color: #332C79;
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+.search-input{
+    height: 55px;
+}
+.mobile-nav{
+    display: none;
+}
+.show-768{
+    display: none;
+}
+
+
+
+@media (max-width: 768px){
+   .hide-768{
+       display: none;
+   }
+    .show-768{
+        display: block;
+    }
+    .search-container{
+        display: flex;
+    }
+    .mobile-nav{
+        display: flex;
+    }
+    .search-input{
+        width: 100% !important;
+    }
+    .graph-container{
+        width: 100%;
+    }
+    .dashboard-layout{
+        padding: 10px;
+    }
+}
